@@ -25,6 +25,7 @@ int main () {
 
 	pa = '1111';
 	printf("Size of *pa %lu. Value is 0x%X\n", sizeof(*pa), pa); //Size of *pa 10. Value is 0x31313131
+	printf("Size of *pa %lu. Value is 0x%X\n", sizeof(*pa), *pa); //Size of pa 10. Value is 0x31313131
 	printf("Size of pa %lu. Address is 0x%X\n", sizeof(pa), &pa); //Size of pa 8. Address is 0x5CDF6948
 
 	pb[0] = '2222';
